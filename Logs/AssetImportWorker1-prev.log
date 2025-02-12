@@ -1,0 +1,620 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.48f1 (8bf49c377ebf) revision 9172124'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.48f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Radhika Khatri/mycobot_final - Copy
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64164
+Successfully changed project path to: C:/Users/Radhika Khatri/mycobot_final - Copy
+C:/Users/Radhika Khatri/mycobot_final - Copy
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19668]  Target information:
+
+Player connection [19668]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2535919962 [EditorId] 2535919962 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CCA09D3H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19668]  * "[IP] 172.22.48.1 [Port] 0 [Flags] 2 [Guid] 2535919962 [EditorId] 2535919962 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CCA09D3H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19668]  * "[IP] 10.30.71.120 [Port] 0 [Flags] 2 [Guid] 2535919962 [EditorId] 2535919962 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CCA09D3H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19668] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19668] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 19.30 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.48f1 (8bf49c377ebf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.48f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Radhika Khatri/mycobot_final - Copy/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a8)
+    Vendor:   Intel
+    VRAM:     8054 MB
+    Driver:   31.0.101.4502
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.48f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.48f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.48f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.48f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014734 seconds.
+- Loaded All Assemblies, in  0.588 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.439 seconds
+Domain Reload Profiling: 1025ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (167ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (219ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (440ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (356ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.046 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.199 seconds
+Domain Reload Profiling: 2241ms
+	BeginReloadAssembly (248ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (667ms)
+		LoadAssemblies (522ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (231ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1199ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (994ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (819ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 6.75 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3471 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (55.4 KB). Loaded Objects now: 3937.
+Memory consumption went from 129.0 MB to 128.9 MB.
+Total: 5.053900 ms (FindLiveObjects: 0.452700 ms CreateObjectMapping: 0.126500 ms MarkObjects: 4.326600 ms  DeleteObjects: 0.146000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 493149.191919 seconds.
+  path: Assets/RosMessages/MycobotCommunication/msg/MycobotAnglesMsg.cs
+  artifactKey: Guid(b4d799ae6c9af9946b9fd59c31db1564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RosMessages/MycobotCommunication/msg/MycobotAnglesMsg.cs using Guid(b4d799ae6c9af9946b9fd59c31db1564) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '93683a328d0c68d749153abb46814a09') in 0.002916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.549821 seconds.
+  path: Assets/mycobot_description/urdf/myarm_c650/endeffector.dae
+  artifactKey: Guid(643ecf7591561934a811c766b12d4b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mycobot_description/urdf/myarm_c650/endeffector.dae using Guid(643ecf7591561934a811c766b12d4b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '07d326b462615988941487e51bee7a78') in 0.750557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 153
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/mycobot_description/urdf/myarm_c650/joint4.dae
+  artifactKey: Guid(9c089a7be7cf18e4689b86de991e9ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mycobot_description/urdf/myarm_c650/joint4.dae using Guid(9c089a7be7cf18e4689b86de991e9ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '65702d4b9ab4895536a6de5e6f919bff') in 0.351558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.204 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.998 seconds
+Domain Reload Profiling: 4192ms
+	BeginReloadAssembly (344ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (646ms)
+		LoadAssemblies (793ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (55ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2999ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1638ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (1330ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (36ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 14.07 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3462 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (29.5 KB). Loaded Objects now: 3983.
+Memory consumption went from 132.5 MB to 132.4 MB.
+Total: 7.949400 ms (FindLiveObjects: 0.386800 ms CreateObjectMapping: 0.190400 ms MarkObjects: 7.259100 ms  DeleteObjects: 0.110600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MycobotSetCoordsMsg.cs: fbcee71d37b7e99026f1a0a5184cfd62 -> 
+  custom:scripting/monoscript/fileName/MyCobotTrackingTargetMsg.cs: 71e934451a454febeafddc5fba0eb6d8 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GetAnglesResponse.cs: 6517d5d6bfc355231b35c3e813f33949 -> 
+  custom:scripting/monoscript/fileName/MycobotGripperStatusMsg.cs: 4e02f14e53fcf3a0ae2076a57119ff6b -> 
+  custom:scripting/monoscript/fileName/MyCobotMoveitJointsMsg.cs: 0431a069786a42756c1f332edc491b66 -> 
+  custom:scripting/monoscript/fileName/MycobotSetFreshModeMsg.cs: b48b4637ae7e46eac34f407a0595c72e -> 
+  custom:scripting/monoscript/fileName/ROSClockPublisher.cs: 0ca1ab5b01d9d1e60e21c78e571f8c27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SetToolReferenceResponse.cs: e4ce6d21ec6aee8b66ac9dcf27110131 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/SetEndTypeResponse.cs: 7dc3cfe19f16ebe2da1ca1b31e69e271 -> 
+  custom:scripting/monoscript/fileName/GetAnglesRequest.cs: 2b2ad5e897f10fca840a604aab677b3d -> 
+  custom:scripting/monoscript/fileName/ROSTransformTreePublisher.cs: 966b67cc28242439d680c4b462a5ca53 -> 
+  custom:scripting/monoscript/fileName/MycobotSetEndTypeMsg.cs: 0efa1adccef815c741b408124715c05d -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/SetAnglesRequest.cs: 71f2be60c8a8b2e1804413d9e3831bf9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/myCobot280M5Subscriber.cs: 7444ee1003e93b85c61c91aa856f8384 -> 
+  custom:scripting/monoscript/fileName/GetCoordsResponse.cs: f90830efcb528c448e55606562bc9b9a -> 
+  custom:scripting/monoscript/fileName/SetCoordsResponse.cs: 7b201f6bd856dc06ed81edd8da952621 -> 
+  custom:scripting/monoscript/fileName/myCobotSourceDestinationPublisher.cs: e85b26aec1c1bbfd36a8efe9158775ab -> 
+  custom:scripting/monoscript/fileName/clock.cs: 615f665ecd9418308c399fa89018f05d -> 
+  custom:scripting/monoscript/fileName/myCobotTargetEndEffectorPosePublisher.cs: 784b9d2a36961902757c02d45ad7b0b5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/GetCoordsRequest.cs: 7bd600c452215c2334daec9f43728642 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GripperStatusResponse.cs: 4d5d270daa9b99b8316c961ae7bc5f09 -> 
+  custom:scripting/monoscript/fileName/SetToolReferenceRequest.cs: 08181257654482b1fe6287c401891596 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GripperStatusRequest.cs: 0e6c053dd4c82e35ce6f899cc6ccbe53 -> 
+  custom:scripting/monoscript/fileName/TimeStamp.cs: da4eeea6ac926240868cb11c92615757 -> 
+  custom:scripting/monoscript/fileName/SetFreshModeResponse.cs: 847c1e028f4b12c4616a472d56f5cb59 -> 
+  custom:scripting/monoscript/fileName/MycobotSetAnglesMsg.cs: ef85f03b7e0cdc0554e56a34e6240c2c -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SetAnglesResponse.cs: 365143de34ae1ea9652da6e9c5c409c4 -> 
+  custom:scripting/monoscript/fileName/PumpStatusRequest.cs: f937a7525b67397cda511960c46533c3 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MycobotCoordsMsg.cs: 0cf73ccd06017beae3679bdb522ea9e8 -> 
+  custom:scripting/monoscript/fileName/PumpStatusResponse.cs: d1f196d90f5c4984109da7b7d5b34089 -> 
+  custom:scripting/monoscript/fileName/SetCoordsRequest.cs: 6be38dc7cab8f46a0c6a6d4612de2a84 -> 
+  custom:scripting/monoscript/fileName/MycobotSetToolReferenceMsg.cs: 7f966a68301c3075025dc270807703b0 -> 
+  custom:scripting/monoscript/fileName/SetFreshModeRequest.cs: e7b078bdcde39a65b6e8a6281f087b28 -> 
+  custom:scripting/monoscript/fileName/MycobotAnglesMsg.cs: 7437f556a302a03bc6971f6dbd1abea7 -> 
+  custom:scripting/monoscript/fileName/MycobotPumpStatusMsg.cs: def931c1b57edf9e965c69e6b3005f2f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TransformTreeNode.cs: ebea1720f524da047fee6f8f7b09fb09 -> 
+  custom:scripting/monoscript/fileName/TransformExtension.cs: 235bdf7c144ac1c8130b627acfc7bc60 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c599ba48b6f620537b8af8cf588c9169 -> 
+  custom:scripting/monoscript/fileName/SetEndTypeRequest.cs: 71e53df3c1d16550e7af994c9bc29049 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.767 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.798 seconds
+Domain Reload Profiling: 2558ms
+	BeginReloadAssembly (248ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (397ms)
+		LoadAssemblies (521ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1798ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (951ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (781ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 8.93 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3463 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3986.
+Memory consumption went from 132.7 MB to 132.7 MB.
+Total: 6.390400 ms (FindLiveObjects: 0.357600 ms CreateObjectMapping: 0.234700 ms MarkObjects: 5.730800 ms  DeleteObjects: 0.065000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MycobotSetCoordsMsg.cs: fbcee71d37b7e99026f1a0a5184cfd62 -> 
+  custom:scripting/monoscript/fileName/MyCobotTrackingTargetMsg.cs: 71e934451a454febeafddc5fba0eb6d8 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GetAnglesResponse.cs: 6517d5d6bfc355231b35c3e813f33949 -> 
+  custom:scripting/monoscript/fileName/MycobotGripperStatusMsg.cs: 4e02f14e53fcf3a0ae2076a57119ff6b -> 
+  custom:scripting/monoscript/fileName/MyCobotMoveitJointsMsg.cs: 0431a069786a42756c1f332edc491b66 -> 
+  custom:scripting/monoscript/fileName/MycobotSetFreshModeMsg.cs: b48b4637ae7e46eac34f407a0595c72e -> 
+  custom:scripting/monoscript/fileName/ROSClockPublisher.cs: 0ca1ab5b01d9d1e60e21c78e571f8c27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SetToolReferenceResponse.cs: e4ce6d21ec6aee8b66ac9dcf27110131 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/SetEndTypeResponse.cs: 7dc3cfe19f16ebe2da1ca1b31e69e271 -> 
+  custom:scripting/monoscript/fileName/GetAnglesRequest.cs: 2b2ad5e897f10fca840a604aab677b3d -> 
+  custom:scripting/monoscript/fileName/ROSTransformTreePublisher.cs: 966b67cc28242439d680c4b462a5ca53 -> 
+  custom:scripting/monoscript/fileName/MycobotSetEndTypeMsg.cs: 0efa1adccef815c741b408124715c05d -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/SetAnglesRequest.cs: 71f2be60c8a8b2e1804413d9e3831bf9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/myCobot280M5Subscriber.cs: 7444ee1003e93b85c61c91aa856f8384 -> 
+  custom:scripting/monoscript/fileName/GetCoordsResponse.cs: f90830efcb528c448e55606562bc9b9a -> 
+  custom:scripting/monoscript/fileName/SetCoordsResponse.cs: 7b201f6bd856dc06ed81edd8da952621 -> 
+  custom:scripting/monoscript/fileName/myCobotSourceDestinationPublisher.cs: e85b26aec1c1bbfd36a8efe9158775ab -> 
+  custom:scripting/monoscript/fileName/clock.cs: 615f665ecd9418308c399fa89018f05d -> 
+  custom:scripting/monoscript/fileName/myCobotTargetEndEffectorPosePublisher.cs: 784b9d2a36961902757c02d45ad7b0b5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/GetCoordsRequest.cs: 7bd600c452215c2334daec9f43728642 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GripperStatusResponse.cs: 4d5d270daa9b99b8316c961ae7bc5f09 -> 
+  custom:scripting/monoscript/fileName/SetToolReferenceRequest.cs: 08181257654482b1fe6287c401891596 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GripperStatusRequest.cs: 0e6c053dd4c82e35ce6f899cc6ccbe53 -> 
+  custom:scripting/monoscript/fileName/TimeStamp.cs: da4eeea6ac926240868cb11c92615757 -> 
+  custom:scripting/monoscript/fileName/SetFreshModeResponse.cs: 847c1e028f4b12c4616a472d56f5cb59 -> 
+  custom:scripting/monoscript/fileName/MycobotSetAnglesMsg.cs: ef85f03b7e0cdc0554e56a34e6240c2c -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SetAnglesResponse.cs: 365143de34ae1ea9652da6e9c5c409c4 -> 
+  custom:scripting/monoscript/fileName/PumpStatusRequest.cs: f937a7525b67397cda511960c46533c3 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MycobotCoordsMsg.cs: 0cf73ccd06017beae3679bdb522ea9e8 -> 
+  custom:scripting/monoscript/fileName/PumpStatusResponse.cs: d1f196d90f5c4984109da7b7d5b34089 -> 
+  custom:scripting/monoscript/fileName/SetCoordsRequest.cs: 6be38dc7cab8f46a0c6a6d4612de2a84 -> 
+  custom:scripting/monoscript/fileName/MycobotSetToolReferenceMsg.cs: 7f966a68301c3075025dc270807703b0 -> 
+  custom:scripting/monoscript/fileName/SetFreshModeRequest.cs: e7b078bdcde39a65b6e8a6281f087b28 -> 
+  custom:scripting/monoscript/fileName/MycobotAnglesMsg.cs: 7437f556a302a03bc6971f6dbd1abea7 -> 
+  custom:scripting/monoscript/fileName/MycobotPumpStatusMsg.cs: def931c1b57edf9e965c69e6b3005f2f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TransformTreeNode.cs: ebea1720f524da047fee6f8f7b09fb09 -> 
+  custom:scripting/monoscript/fileName/TransformExtension.cs: 235bdf7c144ac1c8130b627acfc7bc60 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c599ba48b6f620537b8af8cf588c9169 -> 
+  custom:scripting/monoscript/fileName/SetEndTypeRequest.cs: 71e53df3c1d16550e7af994c9bc29049 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.776 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.500 seconds
+Domain Reload Profiling: 3270ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (401ms)
+		LoadAssemblies (527ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1383ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (1131ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 15.25 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3463 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 3989.
+Memory consumption went from 132.7 MB to 132.7 MB.
+Total: 5.675100 ms (FindLiveObjects: 0.559400 ms CreateObjectMapping: 0.139700 ms MarkObjects: 4.900100 ms  DeleteObjects: 0.073500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MycobotSetCoordsMsg.cs: fbcee71d37b7e99026f1a0a5184cfd62 -> 
+  custom:scripting/monoscript/fileName/MyCobotTrackingTargetMsg.cs: 71e934451a454febeafddc5fba0eb6d8 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/GetAnglesResponse.cs: 6517d5d6bfc355231b35c3e813f33949 -> 
+  custom:scripting/monoscript/fileName/MycobotGripperStatusMsg.cs: 4e02f14e53fcf3a0ae2076a57119ff6b -> 
+  custom:scripting/monoscript/fileName/MyCobotMoveitJointsMsg.cs: 0431a069786a42756c1f332edc491b66 -> 
+  custom:scripting/monoscript/fileName/MycobotSetFreshModeMsg.cs: b48b4637ae7e46eac34f407a0595c72e -> 
+  custom:scripting/monoscript/fileName/ROSClockPublisher.cs: 0ca1ab5b01d9d1e60e21c78e571f8c27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/SetToolReferenceResponse.cs: e4ce6d21ec6aee8b66ac9dcf27110131 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/SetEndTypeResponse.cs: 7dc3cfe19f16ebe2da1ca1b31e69e271 -> 
+  custom:scripting/monoscript/fileName/GetAnglesRequest.cs: 2b2ad5e897f10fca840a604aab677b3d -> 
+  custom:scripting/monoscript/fileName/ROSTransformTreePublisher.cs: 966b67cc28242439d680c4b462a5ca53 -> 
+  custom:scripting/monoscript/fileName/MycobotSetEndTypeMsg.cs: 0efa1adccef815c741b408124715c05d -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/SetAnglesRequest.cs: 71f2be60c8a8b2e1804413d9e3831bf9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/myCobot280M5Subscriber.cs: 7444ee1003e93b85c61c91aa856f8384 -> 
+  custom:scripting/monoscript/fileName/GetCoordsResponse.cs: f90830efcb528c448e55606562bc9b9a -> 
+  custom:scripting/monoscript/fileName/SetCoordsResponse.cs: 7b201f6bd856dc06ed81edd8da952621 -> 
+  custom:scripting/monoscript/fileName/myCobotSourceDestinationPublisher.cs: e85b26aec1c1bbfd36a8efe9158775ab -> 
+  custom:scripting/monoscript/fileName/clock.cs: 615f665ecd9418308c399fa89018f05d -> 
+  custom:scripting/monoscript/fileName/myCobotTargetEndEffectorPosePublisher.cs: 784b9d2a36961902757c02d45ad7b0b5 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/GetCoordsRequest.cs: 7bd600c452215c2334daec9f43728642 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/GripperStatusResponse.cs: 4d5d270daa9b99b8316c961ae7bc5f09 -> 
+  custom:scripting/monoscript/fileName/SetToolReferenceRequest.cs: 08181257654482b1fe6287c401891596 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GripperStatusRequest.cs: 0e6c053dd4c82e35ce6f899cc6ccbe53 -> 
+  custom:scripting/monoscript/fileName/TimeStamp.cs: da4eeea6ac926240868cb11c92615757 -> 
+  custom:scripting/monoscript/fileName/SetFreshModeResponse.cs: 847c1e028f4b12c4616a472d56f5cb59 -> 
+  custom:scripting/monoscript/fileName/MycobotSetAnglesMsg.cs: ef85f03b7e0cdc0554e56a34e6240c2c -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SetAnglesResponse.cs: 365143de34ae1ea9652da6e9c5c409c4 -> 
+  custom:scripting/monoscript/fileName/PumpStatusRequest.cs: f937a7525b67397cda511960c46533c3 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MycobotCoordsMsg.cs: 0cf73ccd06017beae3679bdb522ea9e8 -> 
+  custom:scripting/monoscript/fileName/PumpStatusResponse.cs: d1f196d90f5c4984109da7b7d5b34089 -> 
+  custom:scripting/monoscript/fileName/SetCoordsRequest.cs: 6be38dc7cab8f46a0c6a6d4612de2a84 -> 
+  custom:scripting/monoscript/fileName/MycobotSetToolReferenceMsg.cs: 7f966a68301c3075025dc270807703b0 -> 
+  custom:scripting/monoscript/fileName/SetFreshModeRequest.cs: e7b078bdcde39a65b6e8a6281f087b28 -> 
+  custom:scripting/monoscript/fileName/MycobotAnglesMsg.cs: 7437f556a302a03bc6971f6dbd1abea7 -> 
+  custom:scripting/monoscript/fileName/MycobotPumpStatusMsg.cs: def931c1b57edf9e965c69e6b3005f2f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TransformTreeNode.cs: ebea1720f524da047fee6f8f7b09fb09 -> 
+  custom:scripting/monoscript/fileName/TransformExtension.cs: 235bdf7c144ac1c8130b627acfc7bc60 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c599ba48b6f620537b8af8cf588c9169 -> 
+  custom:scripting/monoscript/fileName/SetEndTypeRequest.cs: 71e53df3c1d16550e7af994c9bc29049 -> 

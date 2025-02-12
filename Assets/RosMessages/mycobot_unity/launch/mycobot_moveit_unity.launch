@@ -1,0 +1,33 @@
+<launch>
+  <!-- Unityの時間を使用するためにrosparamとして/use_sim_timeをtrueにする -->
+  <param name="/use_sim_time" value="true" />
+
+  <!-- UnityのROS-TCP-Endpointを起動 -->
+  <include file="/home/ubuntu/catkin_ws/src/ROS-TCP-Endpoint/launch/endpoint.launch"/>
+
+  <!-- myCobotのURDF、SRDF、その他の設定ファイルをパラメータサーバにロードする-->
+  <include file="/home/ubuntu/catkin_ws/src/mycobot_ros/mycobot_280/mycobot_280_moveit/launch/planning_context.launch">
+    <arg name="load_robot_description" value="true"/>
+  </include>
+
+  <!-- シミュレーションで使用する軌道制御器 -->
+  <!-- 実機がある場合は実機付属の制御器が行う作業なので偽のコントローラと呼ばれているらしい -->
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="use_gui" value="false"/>
+    <rosparam param="source_list">[move_group/fake_controller_joint_states]</rosparam>
+  </node>
+
+  <!-- 公開された関節状態が与えられたら、ロボットリンクのtfを公開する -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen" />
+ 
+  <!-- MoveIt! のメインとなる実行ファイルを実行-->
+  <include file="/home/ubuntu/catkin_ws/src/mycobot_ros/mycobot_280/mycobot_280_moveit/launch/move_group.launch">
+    <arg name="allow_trajectory_execution" value="true"/>
+    <arg name="fake_execution" value="true"/>
+    <arg name="info" value="true"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <!-- mover.pyを起動 -->
+  <node name="mover" pkg="mycobot_unity" type="mover.py" args="--wait" output="screen" />
+</launch>

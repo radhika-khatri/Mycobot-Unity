@@ -65,16 +65,6 @@ git clone https://github.com/radhika-khatri/Mycobot-Unity.git
 - Press **Play** in Unity to start the simulation
 - The robot arm model will be visible and ready to animate or control
 
-### 4. Connect to the physical robot (optional)
-
-If you have a MyCobot 280 connected via USB, run the Python control script:
-
-```bash
-python control.py
-```
-
-This sends joint angle commands to the physical robot while Unity mirrors the movements in the simulation.
-
 ---
 
 ## 📁 Repo Structure
